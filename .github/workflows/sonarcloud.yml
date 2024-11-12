@@ -44,7 +44,7 @@ jobs:
           export PATH=$SONAR_SCANNER_HOME/bin:$PATH
           export SONAR_SCANNER_OPTS="-server"
           sonar-scanner \
-            -Dsonar.organization=alexkriatov \
-            -Dsonar.projectKey=AlexKriatov_sonarcloud_flutter_tutorial\
+            -Dsonar.organization=fps \
+            -Dsonar.projectKey=fps1001_sonarcloud_flutter_tutorial\
             -Dsonar.sources=. \
             -Dsonar.host.url=https://sonarcloud.io
